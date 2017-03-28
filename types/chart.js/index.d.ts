@@ -318,7 +318,7 @@ declare namespace Chart {
         max?: number;
     }
 
-    type ChartColor = string | CanvasGradient | CanvasPattern;
+    type ChartColor = string  | CanvasGradient | CanvasPattern | string[];
 
     export interface ChartDataSets {
         backgroundColor?: ChartColor;
